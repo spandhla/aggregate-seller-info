@@ -1,0 +1,20 @@
+query sellerDetails($filter: SellerFilter, $page: PageInput!, $sortBy: SellerSortBy) {
+    sellers(filter: $filter, page: $page, sortBy: $sortBy) {
+        data {
+            sellerName
+            externalId
+            marketplaceId
+            producerSellerStates {
+                producerId
+                producerName
+                sellerState
+                sellerId
+            }
+        }
+        meta {
+            pageSize
+            currentPage
+        }
+    }
+}
+
