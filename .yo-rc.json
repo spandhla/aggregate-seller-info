@@ -1,0 +1,12 @@
+{
+  "generator-springboot": {
+    "appName": "aggregate-seller-info",
+    "packageName": "com.sentryc",
+    "databaseType": "postgresql",
+    "dbMigrationTool": "flywaydb",
+    "features": [],
+    "buildTool": "gradle",
+    "packageFolder": "com/sentryc",
+    "flywayMigrationCounter": 1
+  }
+}
